@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="styles/school.css" />
   </head>
   <body class="quicksand-fonts">
-    <header>
-      <nav class="flex width">
+    <header class="width">
+      <nav class="flex">
         <!-- img+h2.nav-title+ul>li*4 -->
+
         <div class="flex">
-          <img src="./assets/logo.png" alt="" />
+          <img class="nav-logo" src="./assets/logo.png" alt="" />
           <h2 class="nav-title">SCHOOL</h2>
         </div>
         <ul class="flex">
@@ -20,11 +21,33 @@
           <li class="font-primary">
             <span style="color: rgba(1, 172, 253, 1)">About</span>
           </li>
-          <li class="font-primary"> <span style="color: #05D4DF;">Facilities</span></li>
-          <li class="font-primary"> <span style="color: #5D58EF;">Admission</span></li>
+          <li class="font-primary">
+            <span style="color: #05d4df">Facilities</span>
+          </li>
+          <li class="font-primary">
+            <span style="color: #5d58ef">Admission</span>
+          </li>
         </ul>
         <button class="nav-btn">Contact</button>
       </nav>
+
+      <!-- banner>.vision-container>.empowering-vision>h1.vision-title+p.vision-description+button -->
+
+      <banner>
+        <div class="vision-container flex">
+          <div class="empowering-vision">
+            <h1 class="vision-title">
+              <span style="color: rgba(254, 163, 1, 1);">Empowering</span> <br>students from small age <span style="color: rgba(1, 172, 253, 1);">towards vision</span>
+            </h1>
+            <p class="vision-description">
+              With the courage, Confidence, Creativity and Compassion to make
+              their Unique Contribution in a Diverse and Dynamic World.
+            </p>
+            <button class="banner-btn">Enroll Now</button>
+          </div>
+          <img src="./assets/hero-kids.png" alt="A boy standing with high-hand" />
+        </div>
+      </banner>
     </header>
     <main></main>
     <footer></footer>

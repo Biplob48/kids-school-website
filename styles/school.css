@@ -30,6 +30,11 @@
 
 /* nav styles */
 
+.nav-logo{
+  max-width: 70px;
+  max-height: 70px;
+}
+
 nav > ul {
   list-style: none;
   gap: 32px;
@@ -60,5 +65,37 @@ nav {
   border-radius: 12px;
   color: #ffffff;
   background-color: rgba(254, 163, 1, 1);
+  border: none;
+}
+
+/* banner styles */
+.empowering-vision{
+  padding: 122px 0;
+}
+
+.vision-container{
+  margin: 18px 0 60px;
+  gap: 50px;
+}
+
+.vision-title{
+  font-weight: 700;
+  font-size: 3.50rem;
+}
+.vision-description{
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(17, 17, 17, 1);
+  margin: 24px 0;
+}
+
+.banner-btn{
+  width: 197px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: rgba(17, 17, 17, 1);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.25rem;
   border: none;
 }
