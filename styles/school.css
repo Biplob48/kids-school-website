@@ -7,7 +7,6 @@
   font-style: normal;
 }
 
-
 /* shared styles */
 
 .flex {
@@ -24,18 +23,18 @@
   font-size: 1.25rem;
 }
 
-
-
-
-
 /* nav styles */
 
-.nav-logo{
+.school {
+  gap: 11px;
+}
+
+.nav-logo {
   max-width: 70px;
   max-height: 70px;
 }
 
-nav > ul {
+nav ul {
   list-style: none;
   gap: 32px;
 }
@@ -43,6 +42,7 @@ nav > ul {
 nav {
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .nav-title {
@@ -54,7 +54,6 @@ nav {
 .nav-home {
   font-weight: 700;
   font-size: 1.25rem;
-  color: rgba(254, 163, 1, 1);
 }
 
 .nav-btn {
@@ -68,34 +67,82 @@ nav {
   border: none;
 }
 
+nav li a {
+  text-decoration: none;
+}
+
+.checkbtn, #check{
+  display: none;
+}
+
 /* banner styles */
-.empowering-vision{
+.empowering-vision {
   padding: 122px 0;
 }
 
-.vision-container{
+.vision-container {
   margin: 18px 0 60px;
   gap: 50px;
 }
 
-.vision-title{
+.vision-title {
   font-weight: 700;
-  font-size: 3.50rem;
+  font-size: 3.5rem;
 }
-.vision-description{
+
+.vision-description {
   font-weight: 400;
   font-size: 1.25rem;
   color: rgba(17, 17, 17, 1);
   margin: 24px 0;
 }
 
-.banner-btn{
+.banner-btn {
   width: 197px;
   height: 50px;
   border-radius: 12px;
   background-color: rgba(17, 17, 17, 1);
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.25rem;
   border: none;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/* Responsive styles */
+
+/* responsive for small devices */
+
+@media screen and (max-width: 576px) {
+  
+  /* navbar & banner */
+
+  nav ul li, .nav-btn, .nav-title{
+    display: none;
+  }
+
+  .checkbtn{
+    display: block;
+    font-size: 2rem;
+    color: rgba(17, 17, 17, 1);
+    margin-right: 16px;
+  }
+
+  .vision-container {
+    flex-direction: column-reverse;
+    border: 2px solid red;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+  
+  .empowering-vision {
+    text-align: center;
+    padding: 10px 0;
+  }
+
 }

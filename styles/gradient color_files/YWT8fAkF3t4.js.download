@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("MWInboxMessageRequestsRoot.entrypoint",["JSResourceForInteraction","buildMWInboxRoot.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildMWInboxRoot.entrypoint")(c("JSResourceForInteraction")("MWInboxMessageRequestsRoot.react").__setRef("MWInboxMessageRequestsRoot.entrypoint"),function(a){return{}});g["default"]=a}),98);

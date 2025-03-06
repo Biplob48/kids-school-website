@@ -6,38 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>kids school website</title>
     <link rel="stylesheet" href="styles/school.css" />
+    <script
+      src="https://kit.fontawesome.com/9fc1781a76.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="quicksand-fonts">
     <header class="width">
       <nav class="flex">
         <!-- img+h2.nav-title+ul>li*4 -->
-
-        <div class="flex">
+        <div class="school flex">
           <img class="nav-logo" src="./assets/logo.png" alt="" />
           <h2 class="nav-title">SCHOOL</h2>
         </div>
         <ul class="flex">
-          <li class="nav-home">Home</li>
-          <li class="font-primary">
-            <span style="color: rgba(1, 172, 253, 1)">About</span>
+          <li class="nav-home">
+            <a class="active" href="#"
+              ><span style="color: rgba(254, 163, 1, 1)">Home</span></a
+            >
           </li>
           <li class="font-primary">
-            <span style="color: #05d4df">Facilities</span>
+            <a href=""
+              ><span style="color: rgba(1, 172, 253, 1)">About</span></a
+            >
           </li>
           <li class="font-primary">
-            <span style="color: #5d58ef">Admission</span>
+            <a href=""><span style="color: #05d4df">Facilities</span></a>
+          </li>
+          <li class="font-primary">
+            <a href=""><span style="color: #5d58ef">Admission</span></a>
           </li>
         </ul>
-        <button class="nav-btn">Contact</button>
+        <a href=""><button class="nav-btn">Contact</button></a>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
       </nav>
 
       <!-- banner>.vision-container>.empowering-vision>h1.vision-title+p.vision-description+button -->
 
-      <banner>
+      <banner class="vision-banner">
         <div class="vision-container flex">
           <div class="empowering-vision">
             <h1 class="vision-title">
-              <span style="color: rgba(254, 163, 1, 1);">Empowering</span> <br>students from small age <span style="color: rgba(1, 172, 253, 1);">towards vision</span>
+              <span style="color: rgba(254, 163, 1, 1)">Empowering</span>
+              students from small age
+              <span style="color: rgba(1, 172, 253, 1)">towards vision</span>
             </h1>
             <p class="vision-description">
               With the courage, Confidence, Creativity and Compassion to make
@@ -45,11 +60,40 @@
             </p>
             <button class="banner-btn">Enroll Now</button>
           </div>
-          <img src="./assets/hero-kids.png" alt="A boy standing with high-hand" />
+          <img
+            class="banner-img"
+            src="./assets/hero-kids.png"
+            alt="A boy standing with high-hand"
+          />
         </div>
       </banner>
     </header>
-    <main></main>
+    <main>
+      <section>
+        <h1 class="curriculum-title">Standard Curriculum</h1>
+        <!-- .card-container>card$*3>img.card-image+h2.card-title+h4.card-description+button.card-btn -->
+        <div class="card-container">
+          <card1>
+            <img src="" alt="" class="card-image">
+            <h2 class="card-title"></h2>
+            <h4 class="card-description"></h4>
+            <button class="card-btn"></button>
+          </card1>
+          <card2>
+            <img src="" alt="" class="card-image">
+            <h2 class="card-title"></h2>
+            <h4 class="card-description"></h4>
+            <button class="card-btn"></button>
+          </card2>
+          <card3>
+            <img src="" alt="" class="card-image">
+            <h2 class="card-title"></h2>
+            <h4 class="card-description"></h4>
+            <button class="card-btn"></button>
+          </card3>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
