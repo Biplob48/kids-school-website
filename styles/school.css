@@ -214,6 +214,10 @@ p{
 
 /* 2nd section */
 
+.stories-bg{
+  background: linear-gradient(to top, rgba(254, 163, 1, 0.2), rgba(255, 255, 255, 0.4)), url(../assets/bg-img.png);
+}
+
 .stories-title{
   font-weight: 700;
   font-size: 2.8rem;
@@ -268,7 +272,7 @@ p{
   font-size: 1rem;
   color: #FFFFFF;
   background-color: #95B226;
-  width: 175px;
+  width: 170px;
   height: 38px;
   border-radius: 48px;
   border: none;
@@ -280,7 +284,7 @@ p{
   color: #FFFFFF;
   background-color: #3CD8E8;
   border-radius: 48px;
-  width: 175px;
+  width: 170px;
   height: 48px;
   border: none;
 }
@@ -289,7 +293,7 @@ p{
   font-size: 1rem;
   color: #FFFFFF;
   background-color: #5D58F0;
-  width: 175px;
+  width: 170px;
   height: 38px;
   border-radius: 48px;
 }
@@ -305,6 +309,15 @@ p{
   border: none;
 }
 
+.view-btn{
+  width: 190px;
+  height: 50px;
+  color: #FFFFFF;
+  background-color: rgba(17, 17, 17, 1);
+  border-radius: 12px;
+  border: none;
+  margin: 80px 480px 60px;
+}
 /* Responsive styles */
 
 /* responsive for small devices */
