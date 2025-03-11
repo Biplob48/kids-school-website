@@ -55,7 +55,6 @@ nav ul {
   list-style: none;
   gap: 32px;
 }
-
 nav {
   align-items: center;
   justify-content: space-between;
@@ -85,7 +84,7 @@ nav {
   border: none;
 }
 
-nav li a {
+nav li a{
   text-decoration: none;
 }
 
@@ -195,19 +194,22 @@ hr {
   border-radius: 18px;
 }
 
-p {
+.card-container>a {
   font-weight: 700;
   font-size: 1rem;
 }
 
-.card1 > p {
+.card1 > a {
   color: #64c8ff;
+  text-decoration: none;
 }
-.card2 > p {
+.card2 > a {
   color: #f0aa00;
+  text-decoration: none;
 }
-.card3 > p {
+.card3 > a {
   color: #8700ff;
+  text-decoration: none; 
 }
 
 .curriculum-icon {
