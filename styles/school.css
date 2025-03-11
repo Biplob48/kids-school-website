@@ -345,12 +345,15 @@ footer{
 .footer-container{
   display: flex;
   padding: 123px 228px 174px 140px;
+  justify-content: space-between;
 }
 
 .combined{
   display: flex;
   gap: 10px;
   align-items: center;
+  margin-bottom: 35px;
+  
 }
 .footer-logo{
   width: 82px;
@@ -367,13 +370,20 @@ footer{
   font-weight: 400;
   font-size: 1.2rem;
   color: #FFFFFF;
+  width: 400px;
 }
 
+.about-school>a{
+  text-decoration: none;
+}
 .about-title{
   font-weight: 700;
   font-size: 1.4rem;
   color: #FFFFFF;
+  margin-bottom: 32px;
+  
 }
+
 .about-btn{
   font-weight: 500;
   font-size: 1.25rem;
@@ -381,16 +391,27 @@ footer{
   border: none;
   background: none;
   display: block;
+  
+  margin-bottom: 20px;
+}
+.about-container>a {
+  text-decoration: none;
 }
 
 .touch-title{
   font-weight: 700;
   font-size: 1.6rem;
   color: #FFFFFF;
+  margin-bottom: 32px;
 }
 .icon-container{
   display: flex;
   gap: 12px;
+}
+.touch-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
 }
 /* Responsive styles */
 
