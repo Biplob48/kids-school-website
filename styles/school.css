@@ -21,6 +21,7 @@
 .bg-img {
   background-image: url(../assets/bg-img.png);
 }
+
 .flex {
   display: flex;
 }
@@ -601,6 +602,15 @@ footer{
     text-align: center;
   }
 
+  /* Marquee */
+  .school-info{
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100px;
+    color:crimson;
+   }
+
   /* first section */
   .card-container {
     flex-direction: column;
@@ -609,7 +619,7 @@ footer{
   }
 
   .card1, .card2, .card3 {
-    width: 300px;
+    width: 290px;
   }
 
   .arrows {
@@ -630,9 +640,9 @@ footer{
   .story3,
   .story4,
   .story5 {
-    width: 180px;
+    width: 170px;
     height: 200px;
-    gap: 10px;
+    gap: 12px;
   }
 
   .story-btn,
@@ -695,22 +705,14 @@ footer{
     gap: 16px;
   }
 
-  /* Marquee */
-  .school-info{
-    font-weight: 600;
-    font-size: 2rem;
-    width: 100%;
-    height: 100px;
-    color:crimson;
-   }
 }
 
-/* res */
+/* responsive for medium devices */
 
 @media screen and (min-width:577px) and (max-width:990px){
 
   body{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
   }
 }
